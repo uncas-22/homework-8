@@ -75,21 +75,7 @@ public class Main {
         for (int currentFriday = firstFriday; currentFriday <=31; currentFriday += 7) {
             System.out.println("Сегодня пятница, " + currentFriday + "-е число. Необходимо подготовить отчет");
         }
-        System.out.println();
-        System.out.println("Урок 8. Задание 3.5"); // комета через 79 лет
-        int currentYear = 2022;
-        int beginning = currentYear - 200;
-        int ending = currentYear + 100;
-        for (int n = beginning; n < ending; ++n) {
-            if (n % 79 == 0) {
-                System.out.println(n);
-            }
-        }
-        System.out.println();
-        System.out.println("Урок 8. Задание 3.6"); // таблица умножения на 2
-        for (int p = 1; p <= 10; p++) {
-            System.out.println("2 * " + p + " = " + 2 * p);
-        }
+
     }
 }
    
